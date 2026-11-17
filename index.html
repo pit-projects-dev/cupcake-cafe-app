@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcake & Café Gourmet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vitrine Gourmet</h1>
+        <p>Cupcakes artesanais e cafés especiais selecionados</p>
+    </header>
+
+    <main class="container-vitrine">
+        <section id="grid-produtos" class="grid-produtos">
+            <!-- Os produtos serão injetados via JavaScript -->
+        </section>
+    </main>
+
+    <div id="drawer-carrinho" class="drawer">
+        <h2>Carrinho de Compras</h2>
+        <div id="drawer-items"></div>
+        <div class="carrinho-totais">
+            <p>Frete: R$ 15,00</p>
+            <p><strong>Total: <span id="val-total">R$ 15,00</span></strong></p>
+            <button onclick="finalizarCheckout()" class="btn-primary">Finalizar Pedido (PIX)</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Danilo dos Santos Silva | RGM: 38285894</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
